@@ -2,7 +2,20 @@
 <head>
     <script src="https://cdn.smooch.io/smooch.min.js"></script>
     <script>
-        Smooch.init({appToken: '0eylebnc5mjasq5cclclquh18' });
+        Smooch.init({
+            appToken: '0eylebnc5mjasq5cclclquh18',
+            customText: {
+                headerText: 'Heb je hulp nodig?',
+                inputPlaceholder: 'wat wil je weten?',
+                sendButtonText: 'verstuur',
+                introductionText: 'Wij maken verzekeren gemakkelijk. Heb je een vraag? Wil je schade melden?',
+                introAppText: 'Laat een berichtje achter via je favoriete app - we horen het graag van je.',
+                settingsText: 'Laat je email adres achter en we nemen contact met je op.',
+            },
+            
+            soundNotificationEnabled: false,
+            emailCaptureEnabled: true,
+        });
     </script>
 </head>
 <body>
